@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gdcppios.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1.0.0</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>74186980864C285A7AA6C170CCEEAAB7E088BDC4</string>
+				<key>dateExpires</key>
+				<string>2026/2/26</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>6B3P7F9MD2.com.gamestan.gdcpp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>6B3P7F9MD2</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>gdcppios.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c20282e9-0d6e-4f98-86a6-69bbdfa017bb</string>
+				<key>dateExpires</key>
+				<string>2025/3/6</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.gamestan.gdcpp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>6B3P7F9MD2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

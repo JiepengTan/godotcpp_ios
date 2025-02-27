@@ -4,3 +4,9 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_ptcg0")
+
+[node name="Text" type="RichTextLabel" parent="."]
+offset_left = 419.0
+offset_top = 208.0
+offset_right = 704.0
+offset_bottom = 306.0

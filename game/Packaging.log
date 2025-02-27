@@ -1,0 +1,159 @@
+2025-02-27 11:53:47 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x139772e80; archive(resolved)="<IDEArchive: 0x6000002dda40>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team(resolved)="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x139772e80; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x13976d4f0; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x13976d2e0; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x1152156f0; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x115219df0; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x115206bc0; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x115207a70; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x115207400; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x13b0aaa50; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="<IDEProvisioningBasicTeam: 0x6000028980c0; teamID='6B3P7F9MD2', teamName='(null)'>">
+	<IDEDistributionContext: 0x139657770; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="(null)">
+	<IDEDistributionContext: 0x11520d800; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="(null)">
+	<IDEDistributionContext: 0x13b0aa260; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="(null)">
+	<IDEDistributionContext: 0x13b0a1af0; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600002bae300>", team="(null)">
+	<IDEDistributionContext: 0x13962dc40; archive = "<IDEArchive: 0x6000002dda40>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x139772e80>
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-02-27 11:53:47 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app' '/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root/Payload/gdcppios.app'
+2025-02-27 11:53:47 +0000  >>> Copying /Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app 
+2025-02-27 11:53:47 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-02-27 11:53:47 +0000  4748 bytes for ./_CodeSignature/CodeResources
+2025-02-27 11:53:47 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+2025-02-27 11:53:47 +0000  42 bytes for ./en.lproj/InfoPlist.strings
+2025-02-27 11:53:47 +0000  copying file ./gdcppios ... 
+2025-02-27 11:53:47 +0000  58891904 bytes for ./gdcppios
+copying file ./AppIcon60x60@2x.png ... 
+2025-02-27 11:53:47 +0000  423 bytes for ./AppIcon60x60@2x.png
+2025-02-27 11:53:47 +0000  copying file ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-02-27 11:53:47 +0000  2104 bytes for ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-02-27 11:53:47 +0000  copying file ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-02-27 11:53:47 +0000  924 bytes for ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-02-27 11:53:47 +0000  copying file ./Launch Screen.storyboardc/Info.plist ... 
+2025-02-27 11:53:47 +0000  258 bytes for ./Launch Screen.storyboardc/Info.plist
+2025-02-27 11:53:47 +0000  copying file ./Assets.car ... 
+2025-02-27 11:53:47 +0000  107551 bytes for ./Assets.car
+2025-02-27 11:53:47 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-02-27 11:53:47 +0000  514 bytes for ./AppIcon76x76@2x~ipad.png
+2025-02-27 11:53:47 +0000  copying file ./gdcppios.pck ... 
+2025-02-27 11:53:47 +0000  11632 bytes for ./gdcppios.pck
+2025-02-27 11:53:47 +0000  copying file ./Frameworks/libgdexample.ios.template_debug.a ... 
+2025-02-27 11:53:47 +0000  74344 bytes for ./Frameworks/libgdexample.ios.template_debug.a
+2025-02-27 11:53:47 +0000  copying file ./Frameworks/libgodot-cpp.ios.template_debug.arm64.a ... 
+2025-02-27 11:53:47 +0000  40892368 bytes for ./Frameworks/libgodot-cpp.ios.template_debug.arm64.a
+2025-02-27 11:53:47 +0000  copying file ./embedded.mobileprovision ... 
+14365 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1508 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2025-02-27 11:53:47 +0000 [MT] /usr/bin/ditto exited with 0
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-02-27 11:53:47 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-02-27 11:53:47 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-02-27 11:53:47 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-02-27 11:53:47 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-02-27 11:53:47 +0000 [MT] Item /Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-02-27 11:53:47 +0000 [MT] Archs to thin for item /Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app are ["arm64e"]
+2025-02-27 11:53:47 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root/Payload/gdcppios.app/gdcppios' '-verify_arch' 'arm64e'
+2025-02-27 11:53:47 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-02-27 11:53:47 +0000 [MT] Skipping architecture thinning for item "gdcppios" because arch "arm64e" wasn't found
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-02-27 11:53:47 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-02-27 11:53:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600000d7e8e0; bundleID='com.gamestan.gdcpp', path='<DVTFilePath:0x600000db25e0:'/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600000a14960; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001cd92c0; name='Apple Development: q5913532@163.com (687UKUSYGG)', hash='74186980864C285A7AA6C170CCEEAAB7E088BDC4', serialNumber='5AB3020FFC39BEAB25992880C20C418F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-02-27 07:53:54 +0000''>', entitlements='{
+    "application-identifier" = "6B3P7F9MD2.com.gamestan.gdcpp";
+    "com.apple.developer.team-identifier" = 6B3P7F9MD2;
+    "get-task-allow" = 1;
+}', teamID='6B3P7F9MD2', identifier='com.gamestan.gdcpp', executablePath='<DVTFilePath:0x600000dbe760:'/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app/gdcppios'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "6B3P7F9MD2.com.gamestan.gdcpp";
+    "com.apple.developer.team-identifier" = 6B3P7F9MD2;
+    "get-task-allow" = 1;
+}
+2025-02-27 11:53:47 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-02-27 11:53:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600000d7e8e0; bundleID='com.gamestan.gdcpp', path='<DVTFilePath:0x600000db25e0:'/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600000a14960; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001cd9bc0; name='Apple Development: q5913532@163.com (687UKUSYGG)', hash='74186980864C285A7AA6C170CCEEAAB7E088BDC4', serialNumber='5AB3020FFC39BEAB25992880C20C418F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-02-27 07:53:54 +0000''>', entitlements='{
+    "application-identifier" = "6B3P7F9MD2.com.gamestan.gdcpp";
+    "com.apple.developer.team-identifier" = 6B3P7F9MD2;
+    "get-task-allow" = 1;
+}', teamID='6B3P7F9MD2', identifier='com.gamestan.gdcpp', executablePath='<DVTFilePath:0x600000dbe760:'/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app/gdcppios'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "6B3P7F9MD2.com.gamestan.gdcpp";
+    "com.apple.developer.team-identifier" = 6B3P7F9MD2;
+    "get-task-allow" = 1;
+}
+2025-02-27 11:53:47 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600000d7e8e0; bundleID='com.gamestan.gdcpp', path='<DVTFilePath:0x600000db25e0:'/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600000a14960; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001cda100; name='Apple Development: q5913532@163.com (687UKUSYGG)', hash='74186980864C285A7AA6C170CCEEAAB7E088BDC4', serialNumber='5AB3020FFC39BEAB25992880C20C418F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-02-27 07:53:54 +0000''>', entitlements='{
+    "application-identifier" = "6B3P7F9MD2.com.gamestan.gdcpp";
+    "com.apple.developer.team-identifier" = 6B3P7F9MD2;
+    "get-task-allow" = 1;
+}', teamID='6B3P7F9MD2', identifier='com.gamestan.gdcpp', executablePath='<DVTFilePath:0x600000dbe760:'/Users/tjp/projects/robot/gddemos/GDExtensionSummator/game/gdcppios.xcarchive/Products/Applications/gdcppios.app/gdcppios'>', hardenedRuntime='0'>'> to: /var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/entitlements~~~LNXrmU
+2025-02-27 11:53:47 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600000a82710; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    74186980864C285A7AA6C170CCEEAAB7E088BDC4,
+    "--entitlements",
+    "/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/entitlements~~~LNXrmU",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root/Payload/gdcppios.app"
+)'>
+2025-02-27 11:53:47 +0000 [MT] codesign output: /var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root/Payload/gdcppios.app: replacing existing signature
+/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root/Payload/gdcppios.app: signed app bundle with Mach-O thin (arm64) [com.gamestan.gdcpp]
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-02-27 11:53:47 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-02-27 11:53:47 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-02-27 11:53:47 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root' '/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Packages/gdcppios.ipa'
+2025-02-27 11:53:47 +0000  >>> Copying /var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root 
+2025-02-27 11:53:47 +0000  copying file ./Payload/gdcppios.app/_CodeSignature/CodeResources ... 
+2025-02-27 11:53:47 +0000  4748 bytes for ./Payload/gdcppios.app/_CodeSignature/CodeResources
+2025-02-27 11:53:47 +0000  copying file ./Payload/gdcppios.app/en.lproj/InfoPlist.strings ... 
+2025-02-27 11:53:47 +0000  42 bytes for ./Payload/gdcppios.app/en.lproj/InfoPlist.strings
+2025-02-27 11:53:47 +0000  copying file ./Payload/gdcppios.app/gdcppios ... 
+2025-02-27 11:53:48 +0000  58891904 bytes for ./Payload/gdcppios.app/gdcppios
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/AppIcon60x60@2x.png ... 
+423 bytes for ./Payload/gdcppios.app/AppIcon60x60@2x.png
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-02-27 11:53:48 +0000  2104 bytes for ./Payload/gdcppios.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-02-27 11:53:48 +0000  924 bytes for ./Payload/gdcppios.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/gdcppios.app/Launch Screen.storyboardc/Info.plist ... 
+2025-02-27 11:53:48 +0000  258 bytes for ./Payload/gdcppios.app/Launch Screen.storyboardc/Info.plist
+copying file ./Payload/gdcppios.app/Assets.car ... 
+2025-02-27 11:53:48 +0000  107551 bytes for ./Payload/gdcppios.app/Assets.car
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/AppIcon76x76@2x~ipad.png ... 
+514 bytes for ./Payload/gdcppios.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/gdcppios.app/gdcppios.pck ... 
+2025-02-27 11:53:48 +0000  11632 bytes for ./Payload/gdcppios.app/gdcppios.pck
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/Frameworks/libgdexample.ios.template_debug.a ... 
+2025-02-27 11:53:48 +0000  74344 bytes for ./Payload/gdcppios.app/Frameworks/libgdexample.ios.template_debug.a
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/Frameworks/libgodot-cpp.ios.template_debug.arm64.a ... 
+2025-02-27 11:53:48 +0000  40892368 bytes for ./Payload/gdcppios.app/Frameworks/libgodot-cpp.ios.template_debug.arm64.a
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/embedded.mobileprovision ... 
+2025-02-27 11:53:48 +0000  14365 bytes for ./Payload/gdcppios.app/embedded.mobileprovision
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/Info.plist ... 
+1508 bytes for ./Payload/gdcppios.app/Info.plist
+2025-02-27 11:53:48 +0000  copying file ./Payload/gdcppios.app/PkgInfo ... 
+8 bytes for ./Payload/gdcppios.app/PkgInfo
+2025-02-27 11:53:48 +0000 [MT] /usr/bin/ditto exited with 0
+2025-02-27 11:53:48 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-02-27 11:53:48 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-02-27 11:53:48 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-02-27 11:53:48 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000d491a0:'/var/folders/sg/4vz8shbd5jq7164mr3rxrldc0000gn/T/XcodeDistPipeline.~~~nJ7lss/Root/Payload/gdcppios.app'>
+2025-02-27 11:53:48 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

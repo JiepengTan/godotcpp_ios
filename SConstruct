@@ -18,15 +18,28 @@ sources = Glob("extension/src/*.cpp")
 
 if env["platform"] == "macos":
     library = env.SharedLibrary(
-        "game/bin/libgdsummator.{}.{}.framework/libgdsummator.{}.{}".format(
+        "game/bin/libgdexample.{}.{}.framework/libgdexample.{}.{}".format(
             env["platform"], env["target"], env["platform"], env["target"]
         ),
         source=sources,
     )
+elif env["platform"] == "ios":
+    if env["ios_simulator"]:
+        library = env.StaticLibrary(
+            "game/bin/libgdexample.{}.{}.simulator.a".format(env["platform"], env["target"]),
+            source=sources,
+        )
+    else:
+        library = env.StaticLibrary(
+            "game/bin/libgdexample.{}.{}.a".format(env["platform"], env["target"]),
+            source=sources,
+        )
 else:
     library = env.SharedLibrary(
-        "game/bin/libgdsummator{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        "game/bin/libgdexample{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
         source=sources,
     )
 
+env.NoCache(library)
 Default(library)
+
