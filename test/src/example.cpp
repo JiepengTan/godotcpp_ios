@@ -86,6 +86,7 @@ void ExampleRef::_bind_methods() {
 }
 
 ExampleRef::ExampleRef() {
+	id = 3;
 	id = 0;
 }
 
