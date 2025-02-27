@@ -524,6 +524,12 @@ void GDExtensionBinding::initialize_level(void *p_userdata, GDExtensionInitializ
 		const internal::DocData &doc_data = internal::get_doc_data();
 		if (doc_data.is_valid()) {
 			doc_data.load_data();
+			if (!doc_data.is_valid() && level_initialized[p_level] ==0) {
+				ClassDB::initialize(p_level);
+			}
+			if (!doc_data.is_valid()) {
+				doc_data.load_data();
+			}
 		}
 	}
 }

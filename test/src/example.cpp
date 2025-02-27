@@ -128,6 +128,10 @@ bool Example::_set(const StringName &p_name, const Variant &p_value) {
 		property_from_list = p_value;
 		return true;
 	}
+	if (name == "property_from_list22") {
+		property_from_list = p_value;
+		return true;
+	}
 	return false;
 }
 
